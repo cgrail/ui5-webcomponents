@@ -244,9 +244,11 @@ ui5-checkbox {
 		}
 	}
 
-	.sapMCb:not(.sapMCbBgDis).sapMCbHasLabel:focus:before {
+	.sapMCb:not(.sapMCbBgDis).sapMCbHasLabel:focus:before,
+	.sapMCb.sapMCbWarn:not(.sapMCbBgDis).sapMCbHasLabel:focus:before,
+	.sapMCb.sapMCbErr:not(.sapMCbBgDis).sapMCbHasLabel:focus:before {
 		top: 0.35rem;
-		bottom: 0.325rem;
+		bottom: 0.3rem;
 		left: .375rem;
 	}
 }

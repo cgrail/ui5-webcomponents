@@ -20,21 +20,21 @@
 
 .sapMCb:not(.sapMCbBgDis).sapMCbHasLabel:focus:before {
 	top: 0.5875rem;
-    bottom: 0.5875rem;
+	bottom: 0.5875rem;
 }
 
 .sapMCbBg {
-    border-width: 0.0625rem;
-    border-radius: 0.125rem;
+	border-width: 0.0625rem;
+	border-radius: 0.125rem;
 
-    &.sapMCbMarkChecked:before {
-        line-height: 1.125rem;
-    }
+	&.sapMCbMarkChecked:before {
+		line-height: 1.125rem;
+	}
 }
 
 /* Value State Warning */
 .sapMCb.sapMCbWarn .sapMCbBg {
-    border-width: 0.125rem;
+	border-width: 0.125rem;
 }
 
 /* Value State Error */
@@ -42,6 +42,10 @@
 	border-width: 0.125rem;
 }
 
+.sapMCb.sapMCbWarn:not(.sapMCbBgDis).sapMCbHasLabel:focus:before,
+.sapMCb.sapMCbErr:not(.sapMCbBgDis).sapMCbHasLabel:focus:before {
+	top: 0.55rem;
+}
 
 /*Compact*/
 
